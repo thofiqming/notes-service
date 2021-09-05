@@ -1,0 +1,2 @@
+
+${AnsiColor.BRIGHT_BLUE}:: Notes Service :: Running Spring Boot ${spring-boot.version} ::
