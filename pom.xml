@@ -12,14 +12,10 @@
     <name>Notes Service</name>
 
     <repositories>
-        <!-- jhipster-needle-maven-repository -->
     </repositories>
 
     <pluginRepositories>
-        <!-- jhipster-needle-maven-plugin-repository -->
     </pluginRepositories>
-
-    <!-- jhipster-needle-distribution-management -->
 
     <properties>
         <!-- Build properties -->
@@ -92,7 +88,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- jhipster-needle-maven-add-dependency-management -->
         </dependencies>
     </dependencyManagement>
 

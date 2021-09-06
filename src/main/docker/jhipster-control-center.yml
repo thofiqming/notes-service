@@ -1,5 +1,4 @@
 ## How to use JHCC docker compose
-# To allow JHCC to reach JHipster application from a docker container note that we set the host as host.docker.internal
 # To reach the application from a browser, you need to add '127.0.0.1 host.docker.internal' to your hosts file.
 ### Discovery mode
 # JHCC support 3 kinds of discovery mode: Consul, Eureka and static
@@ -26,7 +25,6 @@
 # Do not forget to remove the prefix "127.0.0.1" in front of their port in order to expose them.
 # This is required because JHCC need to communicate with Consul or Eureka.
 # - In Consul mode, the ports are in the consul.yml file.
-# - In Eureka mode, the ports are in the jhipster-registry.yml file.
 
 version: '3.8'
 services:
